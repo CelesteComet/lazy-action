@@ -1,0 +1,14 @@
+{
+  "name": "lazy-action",
+  "version": "1.0.0",
+  "description": "The lazy way to create actions for react-redux.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "generate": "./generate-crud.js"
+  },
+  "author": "Bruce Wong",
+  "license": "ISC"
+}

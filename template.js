@@ -21,31 +21,31 @@ let API_URL = '/api/<<C>>';
 // Read all
 export const index<<G>> = <<C>> => ({
   type: INDEX_<<E>>,
-  <<C>>
+  payload: <<C>>
 });
 
 // Create
 export const Create<<F>> = <<B>> => ({
   type: CREATE_<<D>>,
-  <<B>>
+  payload: <<B>>
 });
 
 // Read
 export const Read<<F>> = <<B>> => ({
   type: READ_<<D>>,
-  <<B>>
+  payload: <<B>>
 });
 
 // Update
 export const Update<<F>> = <<B>> => ({
   type: UPDATE_<<D>>,
-  <<B>>
+  payload: <<B>>
 });
 
 // Delete
 export const Delete<<F>> = <<B>> => ({
   type: DELETE_<<D>>,
-  <<B>>
+  payload: <<B>>
 });
 
 // async actions
